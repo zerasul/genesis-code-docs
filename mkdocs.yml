@@ -1,0 +1,6 @@
+site_name: Genesis Code Documentation
+nav:
+  - Home: index.md
+  - Install: install.md
+  - Commands: commands.md
+theme: readthedocs
