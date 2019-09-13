@@ -1,4 +1,7 @@
 # genesis-code-docs
+
+[![Build Status](https://travis-ci.org/zerasul/genesis-code-docs.svg?branch=master)](https://travis-ci.org/zerasul/genesis-code-docs)
+
 Genesis Code Extension Documentation
 This is the repository with the web page of the [Genesis Code Documentation](https://zerasul.github.io/genesis-code-docs).
 
