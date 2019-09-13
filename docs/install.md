@@ -33,3 +33,5 @@ This configuration store you gens command to call the emulator and open the atta
 The first way is using the Genesis Code Configuration. You can see the settings section in your visual studio instalation using the menu File->preferences->settings (or with the ctrl+, shortcut).
 
 ![Genesiscodeconfiguration](img/genscodesettings.png)
+
+The second way is using the Set run path Command; this command allows you to put the Gens Emulator command in one Input Box. For more information, please see commands section.
