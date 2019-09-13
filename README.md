@@ -1,6 +1,6 @@
 # genesis-code-docs
 Genesis Code Extension Documentation
-This is the repository with the web page of the [Genesis Code Documentation](https://zerasul.github.io/zerasul/genesis-code-docs).
+This is the repository with the web page of the [Genesis Code Documentation](https://zerasul.github.io/genesis-code-docs).
 
 This project uses [Mkdocs](https://www.mkdocs.org/) and Python 3.
 
