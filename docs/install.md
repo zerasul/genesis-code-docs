@@ -1,6 +1,6 @@
 # Installation
 
- You can find Genesis Code in the Microsoft Marketplace for Extensions; when you find the extension click on install via web or via visual studio code.
+ You can find Genesis Code in the [Microsoft Marketplace for Extensions](https://marketplace.visualstudio.com/items?itemName=zerasul.genesis-code); when you find the extension click on install via web or via visual studio code.
 
  You also, can install via our release tags on the [Github Repository](https://github.com/zerasul/genesis-code) of Genesis Code and install using [visual studio code Extension Instalation Command](https://vscode-docs.readthedocs.io/en/stable/extensions/install-extension/).
 
