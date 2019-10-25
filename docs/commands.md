@@ -29,7 +29,7 @@ This command, allows you to run the rom generated binary with an Emulator. Its o
 
 This command, first compile the project and later run the generated _rom.bin_ file with the current emulator.
 
-**NOTE**: You need to configure the Gens Emulator command path in the Genesis Code Configuration.
+**NOTE**: You need to configure the Emulator command path in the Genesis Code Configuration.
 
 ## Create Project
 
@@ -38,3 +38,5 @@ This command, allows you to create a new project for use with SGDK or GENDEV. Th
 ## Set Gens Command path
 
 This command, allows you to configure the Gens Emulator Command in the Genesis Code Configuration. This command show a input box for set the Emulator Command.
+
+**NOTE**: You can use others emulators like [Blastem](https://www.retrodev.com/blastem/).

@@ -35,3 +35,5 @@ The first way is using the Genesis Code Configuration. You can see the settings 
 ![Genesiscodeconfiguration](img/genscodesettings.png)
 
 The second way is using the Set run path Command; this command allows you to put the Gens Emulator command in one Input Box. For more information, please see commands section.
+
+**NOTE**: You can use other emulators like [Blastem](https://www.retrodev.com/blastem/).
