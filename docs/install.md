@@ -31,6 +31,7 @@ After configure the SGDK or GENDEV enviroment, we need to configure the Gens pat
 To use SGDK and Genesis code in MacOs, you need to install and configure Wine for use with SGDK. Follow the next instructions for install and configure SGDK with Wine in MacOs.
 
 1 . Install [brew](https://brew.sh/index) on your system.
+
 2 . Create and configure the installation directory:
 
 ```bash
