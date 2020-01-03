@@ -8,3 +8,8 @@ With Genesis code, you can see syntax Hightligthing for the SGDK Resource Files.
 
 ![syntax](img/syntax.png)
 
+## SGDK Resource Code Autocompletion (Since v1.1.1)
+
+With Genesis code, you can use contextual help (<kbd>ctrl</kbd>+<kbd>space</kbd>) for see the autocompletion help for the SGDK resource files.
+
+![testautocomplete](img/testautocomplete.gif)
