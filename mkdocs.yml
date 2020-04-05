@@ -3,5 +3,6 @@ nav:
   - Home: index.md
   - Install: install.md
   - Commands: commands.md
+  - Debug: debug.md
   - Other Features: otherfeatures.md
 theme: readthedocs

@@ -26,6 +26,14 @@ For more information you can see the repositories of [SGDK](https://github.com/S
 
 After configure the SGDK or GENDEV enviroment, we need to configure the Gens path command.
 
+### Configuration with MarsDev (since v1.2.0)
+
+Genesis Code is compatible with [MarsDev](https://github.com/andwn/marsdev) toolchain. Only you need to do is install MarsDev and select the toolchain in the Genesis Code settings.
+
+![genesiscodetoolchainsettings](img/genesiscodeconfigtoolchain.png)
+
+For more information with MarsDev toolchain, please go to [MarsDev Github Repo](https://github.com/andwn/marsdev).
+
 ### Configuration in MaCOs (since v1.1.0).
 
 To use SGDK and Genesis code in MacOs, you need to install and configure Wine for use with SGDK. Follow the next instructions for install and configure SGDK with Wine in MacOs.

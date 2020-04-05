@@ -8,6 +8,7 @@ Genesis Code provides the next commands:
 * Compile & Run Project.
 * Create Project.
 * Set Gens Command path.
+* Compile for Debugging.
 
 **NOTE**: All the commands start with "Genesis Code: ".
 
@@ -35,8 +36,22 @@ This command, first compile the project and later run the generated _rom.bin_ fi
 
 This command, allows you to create a new project for use with SGDK or GENDEV. This command, first, allow you to select the folder where the project will be created. Later, will be create three folders (src, inc and res); and initialize a git repository with the .gitignore file. For last, a hello world example will be created.
 
+### MarsDev
+
+If you create the project with the MarsDev toolchain selected in the genesis code Settings, the project is created for use with this toolchain adding a MakeFile and all the files needed for use it with MarsDev.
+
+### Debugging
+
+If you create a new project, it create an ```.vscode``` folder that contains the file ```launch.json```  the debugging configuration for use GDB for remote debugging.
+
 ## Set Gens Command path
 
 This command, allows you to configure the Gens Emulator Command in the Genesis Code Configuration. This command show a input box for set the Emulator Command.
 
 **NOTE**: You can use others emulators like [Blastem](https://www.retrodev.com/blastem/).
+
+## Compile For Debugging
+
+This command, compile the project with the debug options. This command, change if the toolchain selected in settings is SGDK/GENDEV or MARSDEV.
+
+**NOTE:** Due to problems with [GENDEV](https://github.com/kubilus1/gendev) project; dosen't have the libmd.a lib with the debug options, you can't use this command on Linux Systems.
