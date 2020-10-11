@@ -55,3 +55,11 @@ This command, allows you to configure the Gens Emulator Command in the Genesis C
 This command, compile the project with the debug options. This command, change if the toolchain selected in settings is SGDK/GENDEV or MARSDEV.
 
 **NOTE:** Due to problems with [GENDEV](https://github.com/kubilus1/gendev) project; dosen't have the libmd.a lib with the debug options, you can't use this command on Linux Systems.
+
+## Import TMX file
+
+This command, allows you to create a header C File (.h) from a TMX (XML) format file.
+
+## Import Json TMX File
+
+This command, allows you to create a header C file (.h) from a TMX Json (.json) format file.

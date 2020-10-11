@@ -4,5 +4,6 @@ nav:
   - Install: install.md
   - Commands: commands.md
   - Debug: debug.md
+  - TMX: tmx.md
   - Other Features: otherfeatures.md
 theme: readthedocs
