@@ -5,5 +5,6 @@ verify_ssl = true
 
 [packages]
 mkdocs="*"
+toro-mkdocs-kbd="*"
 [requires]
 python_version="3"

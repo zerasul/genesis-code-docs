@@ -34,7 +34,7 @@ Genesis Code is compatible with [MarsDev](https://github.com/andwn/marsdev) tool
 
 For more information with MarsDev toolchain, please go to [MarsDev Github Repo](https://github.com/andwn/marsdev).
 
-### Configuration in MaCOs (since v1.1.0).
+### Configuration in MaCOs (since v1.1.0)(Deprecated).
 
 To use SGDK and Genesis code in MacOs, you need to install and configure Wine for use with SGDK. Follow the next instructions for install and configure SGDK with Wine in MacOs.
 
@@ -67,7 +67,7 @@ brew install wine
 
 ```bash
 mkdir $GENDEV/wine
-WINDEBUG=-all WINEARCH=win32 WINEPREFIX=$GENDEV/wine wineboot
+WINDEBUG=-all WINEARCH=win64 WINEPREFIX=$GENDEV/wine wineboot
 ```
 
 6 . clone SGDK project using git.
@@ -82,8 +82,9 @@ ln -sv $GENDEV/SGDK $GENDEV/wine/drive_c sgdk
 
 ```bash
 cd <your folder where the jdk installer is downloaded>
-WINEPREFIX=$GENDEV/wine wine cmd
+WINEPREFIX=$GENDEV/wine wine64 cmd
 ```
+
 ```bash
 z:\> jdk-8u221-windows-i586.exe /s
 ```
@@ -99,11 +100,15 @@ This will open the register editor in wine; now we need to go the the next regis
 9 . For last, we need to compile and build all the tools in SGDK.
 
 ```bash
-WINEPREFIX=$GENDEV/wine wine cmd
+WINEPREFIX=$GENDEV/wine wine64 cmd
 %GDK_WIN%\bin\make -f %GDK_WIN%\makelin.gen
 ```
 
 **NOTE:** thanks to the [https://github.com/v4ld3r5/sgdk_vscode_template.git](https://github.com/v4ld3r5/sgdk_vscode_template.git) project for this configuration.
+
+**NOTE2:** You can see some errors due to MacOs 32bits limitations; check the MacOs Documentation for more information.
+
+**WARNING**: THis is a deprecated configuration and will be changed in the future.
 
 ### Gens Path Command Configuration
 
