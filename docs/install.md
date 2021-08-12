@@ -110,6 +110,19 @@ WINEPREFIX=$GENDEV/wine wine64 cmd
 
 **WARNING**: THis is a deprecated configuration and will be changed in the future.
 
+### Configure Terminal
+
+If you get an error using genesis code commands like:
+
+```
+Cannot load'%GDK%' module. for more information, please run 'Import-Module %GDK%'.
+```
+
+This is becasuse you are using PowerShell instead CMD Prompt; you can fix this in two ways:
+
+* Run ```cmd``` command on gens-code terminal.
+* Change default terminal, using the command ```>Terminal: Select default Profile``` and select Command Prompt (cmd).
+
 ### Gens Path Command Configuration
 
 To use an Emulator like [Gens](http://gens.me/) you need to configure your gens path Command Configuration.
