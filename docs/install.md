@@ -26,6 +26,22 @@ For more information you can see the repositories of [SGDK](https://github.com/S
 
 After configure the SGDK or GENDEV enviroment, we need to configure the Gens path command.
 
+### Configure all settings for the extension
+
+First of all you need to go a section to configure your Genesis Code extension.
+This is located in Visual Studio Code following menu : File -> Prefernces -> Settings [Ctrl+,].
+Go to Extensions -> Genesis Code, now you can start configuring as your preferences.
+
+![genesiscodepreferences](img/genesiscodepreferences.png)
+
+### Configuration with build using Docker (since v1.2.0)
+
+Genesis Code is compatible build using docker. 
+Previously you should be created a docker image, Genesis Code asume your are followed stepd in the [SGDK](https://github.com/Stephane-D/SGDK) repo.
+
+If you want to build using docker, you should be select a toolchain Docker in the Genesis Code settings.
+
+![genesiscodetoolchainsettingsdocker](img/genesiscodeconfigtoolchaindocker.png)
 ### Configuration with MarsDev (since v1.2.0)
 
 Genesis Code is compatible with [MarsDev](https://github.com/andwn/marsdev) toolchain. Only you need to do is install MarsDev and select the toolchain in the Genesis Code settings.
