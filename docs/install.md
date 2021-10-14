@@ -34,7 +34,7 @@ Go to Extensions -> Genesis Code, now you can start configuring as your preferen
 
 ![genesiscodepreferences](img/genesiscodepreferences.png)
 
-### Configuration with build using Docker (since v1.2.0)
+### Configuration with build using Docker (since v1.2.x)
 
 Genesis Code is compatible build using docker. 
 Previously you should be created a docker image, Genesis Code asume your are followed stepd in the [SGDK](https://github.com/Stephane-D/SGDK) repo.
@@ -42,6 +42,10 @@ Previously you should be created a docker image, Genesis Code asume your are fol
 If you want to build using docker, you should be select a toolchain Docker in the Genesis Code settings.
 
 ![genesiscodetoolchainsettingsdocker](img/genesiscodeconfigtoolchaindocker.png)
+
+If you want to use docker adding a tag, you can set in the Docker Tag section.
+
+![genesiscodedockertagpreference](img/genesiscodedockertagpreference.png)
 ### Configuration with MarsDev (since v1.2.0)
 
 Genesis Code is compatible with [MarsDev](https://github.com/andwn/marsdev) toolchain. Only you need to do is install MarsDev and select the toolchain in the Genesis Code settings.
