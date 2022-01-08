@@ -8,4 +8,3 @@ This is the documentation about the [Genesis Code Extension](https://github.com/
 * Documentation about the commands provided by Genesis Code extension.
 * Some information about issues and solutions.
 * More information about the use with SGDK or GENDEV projects.
-

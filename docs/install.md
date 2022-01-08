@@ -21,7 +21,6 @@ export GENDEV=/opt/gendev
 ```
 
 
-
 For more information you can see the repositories of [SGDK](https://github.com/Stephane-D/SGDK) or [GENDEV](https://github.com/kubilus1/gendev).
 
 After configure the SGDK or GENDEV enviroment, we need to configure the Gens path command.
@@ -34,7 +33,7 @@ Go to Extensions -> Genesis Code, now you can start configuring as your preferen
 
 ![genesiscodepreferences](img/genesiscodepreferences.png)
 
-### Configuration with build using Docker (since v1.2.x)
+### Configuration with build using Docker (since v1.4.x)
 
 Genesis Code is compatible build using docker. 
 Previously you should be created a docker image, Genesis Code asume your are followed stepd in the [SGDK](https://github.com/Stephane-D/SGDK) repo.
@@ -46,6 +45,7 @@ If you want to build using docker, you should be select a toolchain Docker in th
 If you want to use docker adding a tag, you can set in the Docker Tag section.
 
 ![genesiscodedockertagpreference](img/genesiscodedockertagpreference.png)
+
 ### Configuration with MarsDev (since v1.2.0)
 
 Genesis Code is compatible with [MarsDev](https://github.com/andwn/marsdev) toolchain. Only you need to do is install MarsDev and select the toolchain in the Genesis Code settings.
@@ -54,7 +54,7 @@ Genesis Code is compatible with [MarsDev](https://github.com/andwn/marsdev) tool
 
 For more information with MarsDev toolchain, please go to [MarsDev Github Repo](https://github.com/andwn/marsdev).
 
-### Configuration in MaCOs (since v1.1.0)(Deprecated).
+### Configuration in MaCOs (since v1.1.0)(Deprecated)
 
 To use SGDK and Genesis code in MacOs, you need to install and configure Wine for use with SGDK. Follow the next instructions for install and configure SGDK with Wine in MacOs.
 
@@ -66,6 +66,7 @@ To use SGDK and Genesis code in MacOs, you need to install and configure Wine fo
 sudo mkdir /opt/gendev/
 sudo chown $USER: /opt/gendev
 ```
+
 3 . Set the next environment Variables.
 
 ```bash
@@ -134,7 +135,7 @@ WINEPREFIX=$GENDEV/wine wine64 cmd
 
 If you get an error using genesis code commands like:
 
-```
+```powershell
 Cannot load'%GDK%' module. for more information, please run 'Import-Module %GDK%'.
 ```
 

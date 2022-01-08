@@ -9,6 +9,8 @@ Genesis Code provides the next commands:
 * Create Project.
 * Set Gens Command path.
 * Compile for Debugging.
+* Import a new TMX file.
+* Import a new Json TMX file.
 
 **NOTE**: All the commands start with "Genesis Code: ".
 
