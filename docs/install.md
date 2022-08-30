@@ -46,6 +46,9 @@ If you want to use docker adding a tag, you can set in the Docker Tag section.
 
 ![genesiscodedockertagpreference](img/genesiscodedockertagpreference.png)
 
+If you want to use an alternative SGDK Docker Image like [Doragasu SGDK Docker Image](https://gitlab.com/doragasu/docker-sgdk), you can enable the check to active this feature, and don't forget to add the current Gitlab Registry Docker Tag.
+
+
 ### Configuration with MarsDev (since v1.2.0)
 
 Genesis Code is compatible with [MarsDev](https://github.com/andwn/marsdev) toolchain. Only you need to do is install MarsDev and select the toolchain in the Genesis Code settings.
