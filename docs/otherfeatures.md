@@ -29,3 +29,18 @@ You can use custom Environment variables for the GDK, GENDEV or MARSDEV variable
 ![envvariables](img/envvariables.png)
 
 **NOTE**: In MacOs, you can't use custom envvariables with the SGDK/GENDEV toolchain; this is due to the use of wine; we are working on a solution.
+
+## Status Bar Auxiliary Buttons (Since 1.5.0)
+
+If you enable the auxiliary Bar buttons on configuration, you can see them at the status bar (bottom part of the editor).
+
+![Status bar Auxiliary Buttons](img/sbarbuttons.png)
+
+Pushing in each button enable one of the commonly used commands of Genesis Code.
+
+* **Debug**: Compile for Debugging.
+* **Play**: Compile & Run.
+* **Build**: Compile.
+* **Clean**: Clean.
+
+Remember that you can enable or disable theses buttons in the Genesis Code configuration.

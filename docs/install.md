@@ -182,3 +182,9 @@ The first way is using the Genesis Code Configuration. You can see the settings 
 The second way is using the Set run path Command; this command allows you to put the Gens Emulator command in one Input Box. For more information, please see commands section.
 
 **NOTE**: You can use other emulators like [Blastem](https://www.retrodev.com/blastem/).
+
+### Add Status Bar auxiliary Buttons
+
+You can add Auxiliary Buttons at the status bar for compile, compile for debugging, compile & run and clean the current project. Only check the current configuration and you can see the status bar auxiliary buttons at the current status bar.
+
+![add status bar buttons](img/statusbar.png)
