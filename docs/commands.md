@@ -38,6 +38,8 @@ This command, first compile the project and later run the generated _rom.bin_ fi
 
 This command, allows you to create a new project for use with SGDK or GENDEV. This command, first, allow you to select the folder where the project will be created. Later, will be create three folders (src, inc and res); and initialize a git repository with the .gitignore file. For last, a hello world example will be created.
 
+From v1.5.1 of Genesis Code when a new Project is created the C/C++ settings configuration is created using the current configuration values instead using System Environment variables(using the variables configuration of current Toolchain). If there is no value for the current configuration, the System Environment variable value is used.
+
 ### MarsDev
 
 If you create the project with the MarsDev toolchain selected in the genesis code Settings, the project is created for use with this toolchain adding a MakeFile and all the files needed for use it with MarsDev.

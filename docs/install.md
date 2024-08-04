@@ -142,7 +142,9 @@ If you get an error using genesis code commands like:
 Cannot load'%GDK%' module. for more information, please run 'Import-Module %GDK%'.
 ```
 
-This is becasuse you are using PowerShell instead CMD Prompt; you can fix this in two ways:
+**NOTE**: Since v1.5.1 of Genesis Code this Configuration is made when a new Project is created. No more extra configuration is needed.
+
+This is because you are using PowerShell instead CMD Prompt; you can fix this in two ways:
 
 * Run ```cmd``` command on gens-code terminal.
 * Change default terminal, using the command ```>Terminal: Select default Profile``` and select Command Prompt (cmd).
