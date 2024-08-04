@@ -134,7 +134,7 @@ WINEPREFIX=$GENDEV/wine wine64 cmd
 
 **WARNING**: THis is a deprecated configuration and will be changed in the future.
 
-### Configure Terminal
+### Configure Terminal (Windows)
 
 If you get an error using genesis code commands like:
 
@@ -148,6 +148,28 @@ This is because you are using PowerShell instead CMD Prompt; you can fix this in
 
 * Run ```cmd``` command on gens-code terminal.
 * Change default terminal, using the command ```>Terminal: Select default Profile``` and select Command Prompt (cmd).
+
+### Configure Headers using Docker containers
+
+If you are going to use Docker containers, the C headers don't work; this is due the SGDK headers are inside the Docker container and are not from outside the container (without adding a volume). To fix this, we need to change the project configuration and add the SGDK's headers path.
+
+Follow the next steps to add the headers to vscode settings:
+
+1. Download SGDK from the [release page](https://github.com/Stephane-D/SGDK/releases); don't worry about windows version.
+2. Locate the _.vscode_ folder inside your project folder.
+3. Edit the ```settings.json``` file with the following content:
+
+```json
+{ 
+    "C_Cpp.default.includePath": ["{sgdkpath}/inc",
+    "{sgdkpath}/res",
+    "res",
+    "inc"
+]
+}
+```
+
+**NOTE:** Change the ```{sgdkpath}``` to your SGDK's folder path.
 
 ### Gens Path Command Configuration
 
