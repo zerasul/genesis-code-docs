@@ -30,6 +30,24 @@ You can use custom Environment variables for the GDK, GENDEV or MARSDEV variable
 
 **NOTE**: In MacOs, you can't use custom envvariables with the SGDK/GENDEV toolchain; this is due to the use of wine; we are working on a solution.
 
+## Parallel Compilation (since 1.5.2)
+
+The new parameter configuration (```parallel compilation```); this parameter allows to use extra threads when the build or compilation script is launched. This option adds the -j flag when call to make. This flag will speedup the compilation time.
+
+By default this parameter is ```1```.
+
+**NOTE:** The recomend flag is ```-j4```.
+
+![parallel compilation](img/pcompile.png)
+
+## Extra parameters (since 1.5.2)
+
+This new configuration parameter, allow to add extra parameters to the compilation script (make); this parameter is added before the current goals when the make executable is called.
+
+By default, this prameter is empty.
+
+![extraParameters](img/extrap.png)
+
 ## Status Bar Auxiliary Buttons (Since 1.5.0)
 
 If you enable the auxiliary Bar buttons on configuration, you can see them at the status bar (bottom part of the editor).
